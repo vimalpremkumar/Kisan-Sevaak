@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Admin Dashboard</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div> 
+		<div class="header-heading">
+			Krishi Tech
+		</div>     
+                                
+
+
+                                       
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                       
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+
+
+       
+                    
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)"></a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)"></a></li>
+                    </ol>
+                </div>
+            </div>
+
+
+		<!-- row -->
+
+
+			
+                  <div class="row">
+
+			<div class="col-4">
+			<div class="weatherWidget" ></div>
+
+<script>
+   window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+   window.weatherWidgetConfig.push({
+       selector:".weatherWidget",
+       apiKey:"SZM5CB3KHHP3FVWH6Q3F4MLGS", //Sign up for your personal key
+       location:"Dehradun, India", //Enter an address
+       unitGroup:"metric", //"us" or "metric"
+       forecastDays:5, //how many days forecast to show
+       title:"Dehradun,India", //optional title to show in the 
+       showTitle:true, 
+       showConditions:true
+   });
+  
+   (function() {
+   var d = document, s = d.createElement('script');
+   s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+</script>
+</div>
+</div>
+<div class="row">
+<br><br>
+</div>
+			
+<div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-content">
+                                    <div class="stat-text">Moisture</div>
+                                    <div class="stat-digit gradient-3-text"><i class="fa fa-tint"></i>35%</div>
+                                </div>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar gradient-3" style="width: 35%;" role="progressbar"><span class="sr-only">35% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-content">
+                                    <div class="stat-text">pH Level</div>
+                                    <div class="stat-digit gradient-4-text"><i class="fa fa-flask"></i>7.2</div>
+                                </div>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar gradient-4" style="width: 72%;" role="progressbar"><span class="sr-only">72% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-content">
+                                    <div class="stat-text">Temperature</div>
+                                    <div class="stat-digit gradient-4-text"><i class="fa fa-thermometer-half"></i>28°C</div>
+                                </div>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar gradient-4" style="width: 50%;" role="progressbar"><span class="sr-only">50% Complete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+            <!-- #/ container -->
+        </div>
+
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <script src="./js/dashboard/dashboard-2.js"></script>    
+
+
+    <script>
+        window.localStorage.clear();
+        $(document).ready(function () {
+
+$('#list-items').html(localStorage.getItem('listItems'));
+
+$('.add-items').submit(function(event) 
+{
+event.preventDefault();
+
+var item = $('#todo-list-item').val();
+if(item) 
+{
+$('#list-items').append("<li><div class='round d-inline-block'><input type='checkbox' id='checkbox' /><label for='checkbox'></label></div><label for='checkbox'>" + item + "</label><a class='remove'><i class='fa fa-trash'></i></a></li>");
+
+
+
+
+// <div class='round'><input type='checkbox' id='checkbox' /><label for='checkbox'></label></div><label for='checkbox'>
+
+// dfdfdf</label>
+
+
+
+
+
+localStorage.setItem('listItems', $('#list-items').html());
+
+$('#todo-list-item').val("");
+}
+
+});
+
+$(document).on('change', '.checkbox', function() 
+{
+if($(this).attr('checked')) 
+{
+$(this).removeAttr('checked');
+} 
+else 
+{
+$(this).attr('checked', 'checked');
+}
+
+$(this).parent().toggleClass('completed');
+
+localStorage.setItem('listItems', $('#list-items').html());
+});
+
+$(document).on('click', '.remove', function() 
+{
+$(this).parent().remove();
+
+localStorage.setItem('listItems', $('#list-items').html());
+});
+
+});
+    </script>
+</body>
+
+</html>
